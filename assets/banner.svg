@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b1329" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Column Gradients -->
+    <linearGradient id="colGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <!-- CSS Keyframe Animations -->
+    <style>
+      @keyframes floatCard1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes floatCard2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes floatCard3 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.08); }
+      }
+      @keyframes flowDash {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes cardTransfer {
+        0%, 15% { transform: translate(0, 0); opacity: 0.85; }
+        45%, 55% { transform: translate(190px, -20px); opacity: 0.95; }
+        85%, 100% { transform: translate(380px, 0); opacity: 0.85; }
+      }
+
+      .card-float-1 { animation: floatCard1 5s ease-in-out infinite; }
+      .card-float-2 { animation: floatCard2 6s ease-in-out infinite; }
+      .card-float-3 { animation: floatCard3 7s ease-in-out infinite; }
+      .glow-pulse { animation: pulseGlow 8s ease-in-out infinite; transform-origin: center; }
+      .moving-line { stroke-dasharray: 12, 12; animation: flowDash 8s linear infinite; }
+      .moving-card { animation: cardTransfer 12s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+
+      .text-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        letter-spacing: -0.02em;
+      }
+      .text-sub {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+      }
+      .text-badge {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+      }
+      .text-tag {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+      }
+      .kanban-col-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+
+  <!-- Banner Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1198" height="358" x="1" y="1" rx="15" fill="none" stroke="#1f2937" stroke-width="1.5" />
+
+  <!-- Background Decorative Glowing Orbs -->
+  <g class="glow-pulse" filter="url(#glow)">
+    <circle cx="150" cy="80" r="100" fill="#0284c7" opacity="0.18" />
+    <circle cx="1050" cy="280" r="120" fill="#9333ea" opacity="0.18" />
+    <circle cx="950" cy="80" r="90" fill="#06b6d4" opacity="0.15" />
+    <circle cx="250" cy="300" r="90" fill="#3b82f6" opacity="0.15" />
+  </g>
+
+  <!-- Subtle Matrix Dots Pattern -->
+  <g opacity="0.12" fill="#64748b">
+    <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" />
+    </pattern>
+    <rect width="1200" height="360" rx="16" fill="url(#dotPattern)" />
+  </g>
+
+  <!-- Background Dynamic Kanban Columns (Left & Right Flanks) -->
+  <!-- Left Side: Backlog & Ready Columns (subtle low opacity behind foreground) -->
+  <g opacity="0.4" transform="translate(40, 45)">
+    <!-- Column 1: Backlog -->
+    <rect x="0" y="0" width="130" height="270" rx="10" fill="url(#colGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="12" y="12" width="50" height="6" rx="3" fill="#64748b" />
+    <circle cx="115" cy="15" r="4" fill="#3b82f6" />
+    <!-- Static & Floating Cards -->
+    <g class="card-float-1" filter="url(#cardShadow)">
+      <rect x="10" y="32" width="110" height="52" rx="6" fill="#1e293b" stroke="#475569" stroke-width="0.8" />
+      <rect x="18" y="42" width="70" height="5" rx="2.5" fill="#94a3b8" />
+      <rect x="18" y="52" width="45" height="4" rx="2" fill="#475569" />
+      <circle cx="24" cy="71" r="5" fill="#f59e0b" />
+      <rect x="34" y="68" width="30" height="6" rx="3" fill="#f59e0b" fill-opacity="0.25" />
+    </g>
+    <g class="card-float-2" filter="url(#cardShadow)">
+      <rect x="10" y="94" width="110" height="52" rx="6" fill="#1e293b" stroke="#475569" stroke-width="0.8" />
+      <rect x="18" y="104" width="60" height="5" rx="2.5" fill="#94a3b8" />
+      <rect x="18" y="114" width="50" height="4" rx="2" fill="#475569" />
+      <circle cx="24" cy="133" r="5" fill="#38bdf8" />
+      <rect x="34" y="130" width="26" height="6" rx="3" fill="#38bdf8" fill-opacity="0.25" />
+    </g>
+    <g class="card-float-3" filter="url(#cardShadow)">
+      <rect x="10" y="156" width="110" height="52" rx="6" fill="#1e293b" stroke="#475569" stroke-width="0.8" />
+      <rect x="18" y="166" width="65" height="5" rx="2.5" fill="#94a3b8" />
+      <rect x="18" y="176" width="40" height="4" rx="2" fill="#475569" />
+      <circle cx="24" cy="195" r="5" fill="#ec4899" />
+    </g>
+  </g>
+
+  <!-- Right Side: In-Progress & Done Columns -->
+  <g opacity="0.4" transform="translate(1030, 45)">
+    <!-- Column: Done -->
+    <rect x="0" y="0" width="130" height="270" rx="10" fill="url(#colGrad)" stroke="#334155" stroke-width="1" />
+    <rect x="12" y="12" width="45" height="6" rx="3" fill="#10b981" />
+    <circle cx="115" cy="15" r="4" fill="#10b981" />
+    <!-- Floating Cards -->
+    <g class="card-float-2" filter="url(#cardShadow)">
+      <rect x="10" y="32" width="110" height="52" rx="6" fill="#1e293b" stroke="#10b981" stroke-opacity="0.4" stroke-width="0.8" />
+      <rect x="18" y="42" width="75" height="5" rx="2.5" fill="#a7f3d0" />
+      <rect x="18" y="52" width="55" height="4" rx="2" fill="#059669" />
+      <circle cx="24" cy="71" r="5" fill="#10b981" />
+      <rect x="34" y="68" width="35" height="6" rx="3" fill="#10b981" fill-opacity="0.25" />
+    </g>
+    <g class="card-float-1" filter="url(#cardShadow)">
+      <rect x="10" y="94" width="110" height="52" rx="6" fill="#1e293b" stroke="#10b981" stroke-opacity="0.4" stroke-width="0.8" />
+      <rect x="18" y="104" width="60" height="5" rx="2.5" fill="#a7f3d0" />
+      <rect x="18" y="114" width="45" height="4" rx="2" fill="#059669" />
+      <circle cx="24" cy="133" r="5" fill="#10b981" />
+      <rect x="34" y="130" width="28" height="6" rx="3" fill="#10b981" fill-opacity="0.25" />
+    </g>
+    <g class="card-float-3" filter="url(#cardShadow)">
+      <rect x="10" y="156" width="110" height="52" rx="6" fill="#1e293b" stroke="#10b981" stroke-opacity="0.4" stroke-width="0.8" />
+      <rect x="18" y="166" width="70" height="5" rx="2.5" fill="#a7f3d0" />
+      <rect x="18" y="176" width="38" height="4" rx="2" fill="#059669" />
+      <circle cx="24" cy="195" r="5" fill="#10b981" />
+    </g>
+  </g>
+
+  <!-- Flowing Dynamic Process Path across the canvas (behind text) -->
+  <path d="M 120 180 Q 300 240, 600 170 T 1080 180" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" class="moving-line" opacity="0.35" />
+
+  <!-- Animated Flying Card Transitioning Across Workflow (Background) -->
+  <g class="moving-card" opacity="0.35">
+    <rect x="350" y="85" width="80" height="38" rx="6" fill="#0284c7" stroke="#38bdf8" stroke-width="1" />
+    <rect x="358" y="95" width="50" height="4" rx="2" fill="#ffffff" />
+    <circle cx="364" cy="111" r="3" fill="#fbbf24" />
+    <rect x="372" y="109" width="30" height="4" rx="2" fill="#e0f2fe" />
+  </g>
+
+  <!-- ==================== FOREGROUND CONTENT (ALWAYS CRISP & UNOBSTRUCTED) ==================== -->
+  
+  <!-- Subtle dark vignette backdrop behind foreground text to ensure 100% legibility -->
+  <rect x="200" y="30" width="800" height="300" rx="24" fill="#0a0f1d" fill-opacity="0.75" />
+  <rect x="200" y="30" width="800" height="300" rx="24" fill="none" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Top Category Badge Pill -->
+  <g transform="translate(600, 72)">
+    <!-- Pill Container -->
+    <rect x="-190" y="-16" width="380" height="32" rx="16" fill="url(#badgeGrad)" stroke="url(#borderGrad)" stroke-width="1.2" />
+    <circle cx="-168" cy="0" r="4" fill="#38bdf8" />
+    <text x="0" y="4.5" text-anchor="middle" fill="#e0e7ff" class="text-badge">
+      ⚡ AWESOME PROJECT MANAGEMENT &amp; KANBAN
+    </text>
+    <circle cx="168" cy="0" r="4" fill="#ec4899" />
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(600, 140)">
+    <text x="0" y="0" text-anchor="middle" fill="url(#titleGrad)" class="text-title">
+      Awesome Project Management &amp; Kanban
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 185)">
+    <text x="0" y="0" text-anchor="middle" fill="#94a3b8" class="text-sub">
+      Curated Ecosystem of Modern SaaS Platforms &amp; Self-Hosted Open-Source Workspaces
+    </text>
+    <text x="0" y="26" text-anchor="middle" fill="#64748b" class="text-sub" font-size="14px">
+      Enterprise Agile Suites • Lightweight Boards • High-Velocity Issue Tracking • Zero-Telemetry Privacy
+    </text>
+  </g>
+
+  <!-- Bottom Interactive Tags / Feature Pills -->
+  <g transform="translate(600, 276)">
+    <!-- Tag 1: Kanban -->
+    <g transform="translate(-290, 0)">
+      <rect x="-55" y="-14" width="110" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#38bdf8" class="text-tag">📋 Kanban</text>
+    </g>
+    <!-- Tag 2: Agile & Scrum -->
+    <g transform="translate(-145, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#818cf8" class="text-tag">🚀 Agile &amp; Scrum</text>
+    </g>
+    <!-- Tag 3: Self-Hosted -->
+    <g transform="translate(10, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#a855f7" class="text-tag">🔒 Self-Hosted</text>
+    </g>
+    <!-- Tag 4: Open Source -->
+    <g transform="translate(165, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#ec4899" class="text-tag">⭐ Open Source</text>
+    </g>
+    <!-- Tag 5: Enterprise SaaS -->
+    <g transform="translate(315, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" fill="#10b981" class="text-tag">💼 Enterprise SaaS</text>
+    </g>
+  </g>
+</svg>
