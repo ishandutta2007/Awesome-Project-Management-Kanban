@@ -1,6 +1,6 @@
 # Awesome-Project-Management-Kanban
 
-# Top Project Management & Kanban Tools Ecosystem
+## Top Project Management & Kanban Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Self-Hosted Boards, Agile Workflows & Real-Time Collaboration*  
