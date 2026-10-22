@@ -58,7 +58,7 @@ The table below lists leading proprietary project management and Kanban platform
 
 ## ⭐ Open-Source GitHub Projects (Sorted by Stars)
 
-Every repository below is **100% open-source or source-available**, self-hostable, and ordered **descending by GitHub star count**. Star badges link directly to each project's stargazers community.
+Every repository below is **100% open-source or source-available**, self-hostable, and ordered **descending by GitHub Stars_Count**. Stars_Badges link directly to each project's stargazers community.
 
 ```
 AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) ➔ Super Productivity (23.0k+) ➔ WeKan (21.1k+) ➔ OpenProject (16.5k+) ➔ Planka (12.6k+) ➔ Leantime (11.8k+) ➔ Kanboard (9.9k+) ➔ Kaneo (9.5k+) ➔ Gauzy (8.4k+) ➔ Vikunja (5.8k+) ➔ Taskcafe (5.2k+) ➔ Nullboard (4.1k+) ➔ Taiga (2.2k+) ➔ Nextcloud Deck (1.4k+)
@@ -66,7 +66,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 1. [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
+### 1. [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) [![GitHub_Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
 - **Primary Stack:** Rust, Flutter, Dart, SQLite / PostgreSQL
 - **License:** AGPL-3.0
 - **Summary:** The leading open-source Notion and Kanban alternative. Delivers an AI-collaborative workspace featuring Kanban boards, calendar views, relational tables, and document wikis with local-first offline storage and 100% data ownership.
@@ -75,7 +75,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 2. [Plane](https://github.com/makeplane/plane) [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)
+### 2. [Plane](https://github.com/makeplane/plane) [![GitHub_Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)
 - **Primary Stack:** TypeScript, Next.js, Python (Django), PostgreSQL, Redis, Docker
 - **License:** AGPL-3.0
 - **Summary:** A modern, beautiful, and extensible open-source project management platform. Serves as the premier self-hosted alternative to Jira, Linear, Monday, and ClickUp for managing software issues, sprints, and roadmaps.
@@ -84,7 +84,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 3. [Huly Platform](https://github.com/hcengineering/platform) [![GitHub stars](https://img.shields.io/github/stars/hcengineering/platform?style=social&color=white)](https://github.com/hcengineering/platform/stargazers)
+### 3. [Huly Platform](https://github.com/hcengineering/platform) [![GitHub_Stars](https://img.shields.io/github/stars/hcengineering/platform?style=social&color=white)](https://github.com/hcengineering/platform/stargazers)
 - **Primary Stack:** TypeScript, Node.js, WebSockets, Elastic / MongoDB
 - **License:** Elastic License 2.0
 - **Summary:** An ultra-fast, all-in-one project management and workspace suite engineered to replace Linear, Jira, Slack, and Motion in a single platform.
@@ -93,7 +93,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 4. [Focalboard](https://github.com/mattermost-community/focalboard) [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers)
+### 4. [Focalboard](https://github.com/mattermost-community/focalboard) [![GitHub_Stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers)
 - **Primary Stack:** Go, TypeScript, React, SQLite / PostgreSQL
 - **License:** MIT / AGPL
 - **Summary:** Self-hosted open-source alternative to Trello, Notion, and Asana created by Mattermost. Provides multilingual task tracking across boards, tables, and galleries.
@@ -102,7 +102,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 5. [Super Productivity](https://github.com/super-productivity/super-productivity) [![GitHub stars](https://img.shields.io/github/stars/super-productivity/super-productivity?style=social&color=white)](https://github.com/super-productivity/super-productivity/stargazers)
+### 5. [Super Productivity](https://github.com/super-productivity/super-productivity) [![GitHub_Stars](https://img.shields.io/github/stars/super-productivity/super-productivity?style=social&color=white)](https://github.com/super-productivity/super-productivity/stargazers)
 - **Primary Stack:** TypeScript, Angular, Electron
 - **License:** MIT
 - **Summary:** An advanced open-source To-Do list, Kanban planner, and time tracker equipped with timeboxing, Pomodoro timers, and zero data tracking.
@@ -111,7 +111,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 6. [WeKan](https://github.com/wekan/wekan) [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers)
+### 6. [WeKan](https://github.com/wekan/wekan) [![GitHub_Stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers)
 - **Primary Stack:** Meteor, Node.js, MongoDB
 - **License:** MIT
 - **Summary:** The classic, battle-tested open-source Trello clone in active development since 2014. Offers near-identical board, list, card workflows with strict zero-telemetry privacy guarantees.
@@ -120,7 +120,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 7. [OpenProject](https://github.com/opf/openproject) [![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)
+### 7. [OpenProject](https://github.com/opf/openproject) [![GitHub_Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)
 - **Primary Stack:** Ruby on Rails, Angular, PostgreSQL, Docker
 - **License:** GPL-3.0
 - **Summary:** The leading open-source project and portfolio management (PPM) system. Acts as a powerful enterprise Jira and Microsoft Project alternative.
@@ -129,7 +129,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 8. [Planka](https://github.com/plankanban/planka) [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)
+### 8. [Planka](https://github.com/plankanban/planka) [![GitHub_Stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)
 - **Primary Stack:** React, Redux, Node.js, PostgreSQL, Docker
 - **License:** PLANKA Community License (Fair-code)
 - **Summary:** An elegant, lightweight, and modern self-hosted Kanban board built with React. Delivers real-time card updates and a polished user interface.
@@ -138,7 +138,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 9. [Leantime](https://github.com/Leantime/leantime) [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)
+### 9. [Leantime](https://github.com/Leantime/leantime) [![GitHub_Stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)
 - **Primary Stack:** PHP, MySQL / MariaDB, JavaScript
 - **License:** GPL-2.0
 - **Summary:** A strategic, goal-focused project management system engineered specifically for non-project managers and neurodivergent teams (ADHD, Autism, dyslexia).
@@ -147,7 +147,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 10. [Kanboard](https://github.com/kanboard/kanboard) [![GitHub stars](https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white)](https://github.com/kanboard/kanboard/stargazers)
+### 10. [Kanboard](https://github.com/kanboard/kanboard) [![GitHub_Stars](https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white)](https://github.com/kanboard/kanboard/stargazers)
 - **Primary Stack:** PHP, SQLite / MySQL / PostgreSQL
 - **License:** MIT
 - **Summary:** An ultra-lightweight, no-nonsense Kanban board focused strictly on minimalism, speed, and low hardware resource consumption.
@@ -156,7 +156,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 11. [Kaneo](https://github.com/usekaneo/kaneo) [![GitHub stars](https://img.shields.io/github/stars/usekaneo/kaneo?style=social&color=white)](https://github.com/usekaneo/kaneo/stargazers)
+### 11. [Kaneo](https://github.com/usekaneo/kaneo) [![GitHub_Stars](https://img.shields.io/github/stars/usekaneo/kaneo?style=social&color=white)](https://github.com/usekaneo/kaneo/stargazers)
 - **Primary Stack:** TypeScript, Next.js, Node.js, PostgreSQL
 - **License:** AGPL-3.0
 - **Summary:** A clean, distraction-free open-source project management solution built with modern web technologies for developer efficiency.
@@ -165,7 +165,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 12. [Gauzy](https://github.com/ever-co/ever-gauzy) [![GitHub stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy/stargazers)
+### 12. [Gauzy](https://github.com/ever-co/ever-gauzy) [![GitHub_Stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy/stargazers)
 - **Primary Stack:** TypeScript, NestJS, Angular, TypeORM, PostgreSQL
 - **License:** AGPL-3.0
 - **Summary:** An open-source business and ERP platform pairing Kanban project management with organizational HR, payroll, timesheets, and invoicing.
@@ -174,7 +174,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 13. [Vikunja](https://github.com/go-vikunja/vikunja) [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)
+### 13. [Vikunja](https://github.com/go-vikunja/vikunja) [![GitHub_Stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)
 - **Primary Stack:** Go, TypeScript, Vue.js, SQLite / MySQL / PostgreSQL
 - **License:** AGPL-3.0
 - **Summary:** The task manager you truly own. Highly flexible, featuring four synchronized views (Kanban, Gantt, Table, List) backed by a lightning-fast Go API.
@@ -183,7 +183,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 14. [Taskcafe](https://github.com/JordanKnott/taskcafe) [![GitHub stars](https://img.shields.io/github/stars/JordanKnott/taskcafe?style=social&color=white)](https://github.com/JordanKnott/taskcafe/stargazers)
+### 14. [Taskcafe](https://github.com/JordanKnott/taskcafe) [![GitHub_Stars](https://img.shields.io/github/stars/JordanKnott/taskcafe?style=social&color=white)](https://github.com/JordanKnott/taskcafe/stargazers)
 - **Primary Stack:** Go, React, TypeScript, PostgreSQL
 - **License:** Apache-2.0
 - **Summary:** An open-source project management tool written in Go and React with a clean visual Kanban interface inspired by Trello and Nextcloud.
@@ -192,7 +192,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 15. [Nullboard](https://github.com/apankrat/nullboard) [![GitHub stars](https://img.shields.io/github/stars/apankrat/nullboard?style=social&color=white)](https://github.com/apankrat/nullboard/stargazers)
+### 15. [Nullboard](https://github.com/apankrat/nullboard) [![GitHub_Stars](https://img.shields.io/github/stars/apankrat/nullboard?style=social&color=white)](https://github.com/apankrat/nullboard/stargazers)
 - **Primary Stack:** Vanilla HTML5, CSS3, JavaScript (Zero dependencies)
 - **License:** BSD-2-Clause
 - **Summary:** A hyper-minimalist, single-page Kanban board designed strictly for compactness, rapid keyboard interaction, and zero server overhead.
@@ -201,7 +201,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 16. [Taiga](https://github.com/taigaio/taiga-docker) [![GitHub stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers)
+### 16. [Taiga](https://github.com/taigaio/taiga-docker) [![GitHub_Stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers)
 - **Primary Stack:** Python (Django), AngularJS, PostgreSQL, Docker
 - **License:** MPL-2.0
 - **Summary:** Award-winning open-source project management platform built specifically for Agile development teams, designers, and Scrum masters.
@@ -210,7 +210,7 @@ AppFlowy (77.6k+) ➔ Plane (61.2k+) ➔ Huly (27.9k+) ➔ Focalboard (26.5k+) �
 
 ---
 
-### 17. [Nextcloud Deck](https://github.com/nextcloud/deck) [![GitHub stars](https://img.shields.io/github/stars/nextcloud/deck?style=social&color=white)](https://github.com/nextcloud/deck/stargazers)
+### 17. [Nextcloud Deck](https://github.com/nextcloud/deck) [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/deck?style=social&color=white)](https://github.com/nextcloud/deck/stargazers)
 - **Primary Stack:** PHP, Vue.js (Native Nextcloud App)
 - **License:** AGPL-3.0
 - **Summary:** A Kanban-style task and project management application built directly into the Nextcloud on-premises ecosystem.
@@ -241,7 +241,7 @@ We welcome additions, corrections, and improvements from the open-source communi
 2. **Create a Feature Branch** (`git checkout -b feature/add-new-tool`).
 3. **Format Guidelines:**
    - For SaaS tools: Include company size, verified starting pricing, and exact free tier limits.
-   - For Open-Source tools: Include primary tech stack, license, summary, key features, and star badge (`style=social&color=white`).
+   - For Open-Source tools: Include primary tech stack, license, summary, key features, and Stars_Badge (`style=social&color=white`).
    - Insert open-source repos in the proper star-count descending order.
 4. **Test Links and Badges:** Ensure all URLs resolve cleanly without redirects.
 5. **Submit a Pull Request** with a descriptive summary of your additions.
